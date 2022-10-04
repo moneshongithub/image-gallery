@@ -1,0 +1,45 @@
+
+        /* 3############# IMAGE GALLERY ################# */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(165, 42, 42, 0.712); */
+    background-image: url(https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.main img{
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main #one{
+    left: 40%;
+}
+.main #three{
+    left: 60%;
+}
+.main #two{
+    z-index: 999;
+}
+.main img:hover{
+    height: 70%;
+    z-index: 9999;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)2s;
+    z-index: 10000;
+}
+.main h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    opacity: .6;
+}
